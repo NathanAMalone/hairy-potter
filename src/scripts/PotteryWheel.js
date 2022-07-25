@@ -1,6 +1,6 @@
 let primaryKey = 1
 
-export const makePottery = (potteryShape, potteryWeight, potteryHeight, primaryKey) => {
+export const makePottery = (potteryShape, potteryWeight, potteryHeight) => {
     const pottery = {
         shape: potteryShape,
         weight: potteryWeight,
