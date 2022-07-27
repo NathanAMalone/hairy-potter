@@ -1,6 +1,9 @@
 export const firePottery = (potteryID, kilnTemp) => {
     const pottery = {
-        id: potteryID,
+        id: potteryID.id,
+        shape: potteryID.shape,
+        weight: potteryID.weight,
+        height: potteryID.height,
         temperature: kilnTemp,
         fired: true
         }

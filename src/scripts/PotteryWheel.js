@@ -9,3 +9,4 @@ export const makePottery = (potteryShape, potteryWeight, potteryHeight) => {
     }
     return pottery
 }    
+
